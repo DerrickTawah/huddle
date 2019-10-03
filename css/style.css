@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:600&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Open+sans:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+sans:200, 400,700&display=swap');
 
 body {
     max-width: 1440px;
@@ -12,23 +12,30 @@ body {
 
 h1,h2,h3,h4,h5,h6 {
     font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 2em;
+}
+
+p {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 1.5em;
+    line-height: 1.2em;
 }
 
 .btn {
     display: block;
     width: 50%;
-    border: 0px solid white;
+    border: 2px solid #f5f5f5;
     border-radius: 50px;
     background-color: hsl(322, 100%, 66%);
     padding: .75em 2em;
     text-decoration: none;
     color: white;
-    font-family: 'Open Sans';
-    font-size: 1em;
-    font-weight: 400;
-    box-shadow: rgba(0.3, 0.3, 0.3, 0.3);
+    box-shadow: 40px;
     margin: 0 auto;
     text-align: center;
+    font-family: 'Poppins';
 }
 
 header {
@@ -38,7 +45,7 @@ header {
     background: url('/images/bg-hero-mobile.svg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: hsl(185, 62%, 92%);
+    /*background-color: hsl(185, 62%, 92%);*/
 }
 
 header img {
@@ -50,18 +57,16 @@ header img {
 
 header > a {
     float: right;
-    border: 0px solid white;
+    border: 2px solid #f5f5f5;
     border-radius: 50px;
     background-color: hsl(315, 25%, 97%);
     padding: .5em 1.5em;
     margin-top: 1em;
     text-decoration: none;
     color: rgb(17, 17, 17);
-    font-family: 'Open Sans';
-    font-size: 1em;
-    font-weight: 400;
-    box-shadow: rgba(0.3, 0.3, 0.3, 0.3);
+    box-shadow: 40px;
     margin-right: .2em;
+    font-family: 'Poppins';
 }
 
 .hero {
@@ -85,4 +90,146 @@ main {
     flex: 1, 1, auto;
     width: 100%;
     text-align: center;
+}
+
+.benefits {
+    display: block;
+    flex: 1, 1, auto;
+}
+
+.grow, .flowing, .users, .call-to-action {
+    border: 2px solid #f5f5f5;
+    border-radius: 20px;
+    padding: 2em;
+    box-shadow: 40px;
+    margin: 1.5em 1em;
+}
+
+.grow > img {
+    width: 375px;
+}
+
+.flowing > img {
+    width: 375px;
+}
+
+.users > img {
+    width: 375px;
+}
+
+.call-to-action {
+    margin-top: 4em;
+    margin-bottom: -4em;
+    background-color: #ffffff;
+}
+
+footer {
+    background: hsl(192, 100%, 9%);
+    color: white;
+    font-family: 'Poppins';
+    margin: 0 auto;
+    padding: 1em;
+}
+
+.footer-logo {
+    margin-top: 6em;
+    background-color: rgba(255, 255, 255, 0.577);
+    width: 240px;
+    padding: 1em;
+    border: 0px solid white;
+    border-radius: 20px;
+}
+
+.location > img {
+    padding-right: .75em;
+}
+
+.phone > img {
+    padding-right: 1em;
+}
+
+.email > img {
+    padding-right: 1em;
+}
+
+.location {
+    display: flex;
+    flex-flow: row;
+    flex-shrink: 0;
+    width: 100%;
+    margin: 1em auto;
+}
+
+.location > p {
+    width: 70%;
+    align-items: flex-start;
+}
+
+.location > img {
+    width: auto;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.phone {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    margin: 1em auto;
+    text-align: center;
+}
+
+.email {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%; 
+    margin: 1em auto;
+}
+
+.footer-menu {
+    margin-bottom: 2.5em;
+    font-family: 'Open Sans';
+}
+
+.footer-menu li {
+    list-style: none;
+    padding-top: 1em;
+    margin-bottom: .5em;
+}
+
+.footer-menu a:visited {
+    text-decoration: none;
+    color: hsl(322, 100%, 66%);
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+
+.footer-menu a {
+    text-decoration: none;
+    color: hsl(193, 100%, 96%);
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+
+footer > p {
+    font-size: 1em;
+    color: white;
+    text-align: center;
+
+}
+
+.attribution > a:visited {
+    color: hsl(322, 100%, 66%)
+}
+
+.attribution > a {
+    color: white;
+}
+
+@media screen and (min-width: 800px) {
+    
 }
