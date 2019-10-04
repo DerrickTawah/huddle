@@ -298,22 +298,60 @@ footer > p {
         display: flex;
         flex-flow: column;
         width: 100%;
+        flex-grow: 1;
+        flex-shrink: 1;
     }
 
 
     .grow {
         display: flex;
-        flex-flow: row;
+        flex-flow: row-reverse;
+       
     }
 
     .flowing {
         display: flex;
-        flex-flow: row-reverse;
+        flex-flow: row;
     }
 
     .users {
         display: flex;
-        flex-flow: row;
+        flex-flow: row-reverse;
+    }
+
+    .grow-content {
+        padding: 1em;
+        text-align: left;
+        font-size: 80%;
+    }
+
+    .flowing-content {
+        padding: 1em;
+        text-align: left;
+        font-size: 80%;
+    }
+
+    .users-content {
+        padding: 1em;
+        text-align: left;
+        font-size: 80%;
+    }
+
+
+    .grow > img {
+        width: 50%;
+        height: auto;
+        padding: 1em;
+    }
+
+    .flowing > img {
+        width: 50%;
+        height: auto;
+    }
+
+    .users > img {
+        width: 50%;
+        height: auto;
     }
 
     .call-to-action {
