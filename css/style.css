@@ -224,6 +224,16 @@ footer > p {
     text-align: center;
 }
 
+.socialmedia {
+    display: flex;
+    flex-flow: row;
+}
+
+.attribution {
+    margin: 0 auto;
+    text-align: center;
+}
+
 /* .attribution > a:visited {
     color: hsl(322, 100%, 66%);
     font-size: 1em;
@@ -232,6 +242,7 @@ footer > p {
 .attribution > a {
     color: white;
     font-size: 1em;
+    text-decoration: none;
 }
 
 @media screen and (min-width: 820px) {
@@ -368,4 +379,29 @@ footer > p {
         margin-right: auto;
 
     }
+
+    footer {
+        display: flex;
+        flex-flow: row;
+        width: 100%;
+    }
+
+    .grid1 {
+        width: 33.33%;
+        margin-bottom: 8em;
+    }
+
+    .grid2 {
+        display: flex;
+        flex-wrap: wrap;
+        width: 33.33%;
+        margin-top: 12em;
+        font-size: 70%;
+    }
+
+    .grid3 {
+        width: 33.33%;
+        margin-top: 12em;
+    }
+
 }
