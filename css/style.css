@@ -98,7 +98,7 @@ main {
     width: auto;
 }
 
-.grow, .flowing, .users, .call-to-action {
+.grow, .flow, .users, .call-to-action {
     display: flex;
     flex-flow: column;
     border: 2px solid #f5f5f5;
@@ -113,7 +113,7 @@ main {
     height: 30vh;
 }
 
-.flowing > img {
+.flow > img {
     width: auto;
     height: 30vh;
 }
@@ -138,7 +138,7 @@ footer {
     padding: 1em;
 }
 
-.footer-logo {
+.footerLogo {
     margin-top: 6em;
     background-color: rgba(255, 255, 255, 0.577);
     width: 13.3em;
@@ -197,25 +197,25 @@ footer {
     margin: 1em auto;
 }
 
-.footer-menu {
+.footerMenu {
     margin-bottom: 2.5em;
     font-family: 'Open Sans';
 }
 
-.footer-menu li {
+.footerMenu li {
     list-style: none;
     padding-top: 1em;
     margin-bottom: .5em;
 }
 
-.footer-menu a:visited {
+.footerMenu a:visited {
     text-decoration: none;
     color: hsl(322, 100%, 66%);
     font-family: 'Poppins';
     font-weight: 400;
 }
 
-.footer-menu a {
+.footerMenu a {
     text-decoration: none;
     color: hsl(193, 100%, 96%);
     font-family: 'Poppins';
@@ -306,10 +306,11 @@ footer > p {
     .grow {
         display: flex;
         flex-flow: row-reverse;
+        box-sizing: border-box;
        
     }
 
-    .flowing {
+    .flow {
         display: flex;
         flex-flow: row;
     }
@@ -319,22 +320,28 @@ footer > p {
         flex-flow: row-reverse;
     }
 
-    .grow-content {
+    .growContent{
+        box-sizing: border-box;
         padding: 1em;
+        margin: 4em;
         text-align: left;
         font-size: 80%;
         justify-items: center;
     }
 
-    .flowing-content {
+    .flowContent {
+        box-sizing: border-box;
         padding: 1em;
+        margin: 4em;
         text-align: left;
         font-size: 80%;
         justify-items: center;
     }
 
-    .users-content {
+    .usersContent {
+        box-sizing: border-box;
         padding: 1em;
+        margin: 4em;
         text-align: left;
         font-size: 80%;
         justify-items: center;
@@ -344,10 +351,10 @@ footer > p {
     .grow > img {
         width: 50%;
         height: auto;
-        padding: 1em;
+        box-sizing: border-box;
     }
 
-    .flowing > img {
+    .flow > img {
         width: 50%;
         height: auto;
     }
