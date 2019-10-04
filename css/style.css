@@ -323,18 +323,21 @@ footer > p {
         padding: 1em;
         text-align: left;
         font-size: 80%;
+        justify-items: center;
     }
 
     .flowing-content {
         padding: 1em;
         text-align: left;
         font-size: 80%;
+        justify-items: center;
     }
 
     .users-content {
         padding: 1em;
         text-align: left;
         font-size: 80%;
+        justify-items: center;
     }
 
 
