@@ -170,6 +170,7 @@ footer {
 .location > p {
     width: 70%;
     align-items: flex-start;
+    font-size: 1em;
 }
 
 .location > img {
@@ -186,6 +187,7 @@ footer {
     width: 100%;
     margin: 1em auto;
     text-align: center;
+    font-size: 1em;
 }
 
 .email {
@@ -195,17 +197,20 @@ footer {
     align-items: center;
     width: 100%; 
     margin: 1em auto;
+    font-size: 1em;
 }
 
 .footerMenu {
     margin-bottom: 2.5em;
     font-family: 'Open Sans';
+    font-size: 1em;
 }
 
 .footerMenu li {
     list-style: none;
     padding-top: 1em;
     margin-bottom: .5em;
+    font-size: 1em;
 }
 
 .footerMenu a:visited {
@@ -213,6 +218,7 @@ footer {
     color: hsl(322, 100%, 66%);
     font-family: 'Poppins';
     font-weight: 400;
+    font-size: 1em;
 }
 
 .footerMenu a {
@@ -220,21 +226,25 @@ footer {
     color: hsl(193, 100%, 96%);
     font-family: 'Poppins';
     font-weight: 400;
+    font-size: 1em;
 }
 
 footer > p {
     font-size: 1em;
     color: white;
     text-align: center;
+    font-size: 1em;
 
 }
 
 .attribution > a:visited {
-    color: hsl(322, 100%, 66%)
+    color: hsl(322, 100%, 66%);
+    font-size: 1em;
 }
 
 .attribution > a {
     color: white;
+    font-size: 1em;
 }
 
 @media screen and (min-width: 820px) {
