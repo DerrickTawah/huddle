@@ -203,13 +203,13 @@ footer {
     font-size: 1em;
 }
 
-.footerMenu a:visited {
+/* .footerMenu a:visited {
     text-decoration: none;
     color: hsl(322, 100%, 66%);
     font-family: 'Poppins';
     font-weight: 400;
     font-size: 1em;
-}
+} */
 
 .footerMenu a {
     text-decoration: none;
@@ -225,10 +225,10 @@ footer > p {
     text-align: center;
 }
 
-.attribution > a:visited {
+/* .attribution > a:visited {
     color: hsl(322, 100%, 66%);
     font-size: 1em;
-}
+} */
 
 .attribution > a {
     color: white;
