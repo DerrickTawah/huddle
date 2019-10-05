@@ -1,5 +1,5 @@
 # Preview my solution  here
-https://github.com/DerrickTawah/huddle/settings
+https://derricktawah.github.io/huddle/
 
 # Frontend Mentor - Huddle landing page with alternating feature blocks
 
