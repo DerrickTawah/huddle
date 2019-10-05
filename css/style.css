@@ -135,19 +135,18 @@ footer {
     color: white;
     font-family: 'Poppins';
     margin: 0 auto;
-    padding: 1em;
+    padding-top: 4em;
     font-size: 1em;
     border-start-start-radius: 1em;
     border-start-end-radius: 1em;
 }
 
 .footerLogo {
-    margin-top: 6em;
     background-color: rgba(255, 255, 255, 0.577);
-    width: 13.3em;
+    width: 13em;
     padding: 1em;
-    border: 0px solid white;
-    border-radius: 1.1em;
+    border: 1px solid white;
+    border-radius: 1em;
 }
 
 .location {
@@ -156,7 +155,6 @@ footer {
     justify-content: flex-start;
     align-items: flex-start;
     width: 100%;
-    margin: 1em auto;
     font-size: 1em;
 }
 
@@ -166,7 +164,6 @@ footer {
     justify-content: flex-start;
     align-items: flex-start;
     width: 100%;
-    margin: 1em auto;
     font-size: 1em;
 }
 
@@ -176,38 +173,21 @@ footer {
     justify-content: flex-start;
     align-items: flex-start;
     width: 100%; 
-    margin: 1em auto;
     font-size: 1em;
 }
 
-.location > img {
-    padding-right: .5em;   
+.location.phone.email > img {
+    padding-right: .5em; 
+    margin-top: 4px;
+    width: 18px;
+    height: 24px;  
 }
 
-.location > p {
+.location.phone.email > p {
     width: 92%;
     margin: 0 auto;
 }
 
-
-.phone > img {
-    padding-right: 1em;
-}
-
-.phone > p {
-    width: 92%;
-    margin: 0 auto;
-}
-
-.email > img {
-    padding-right: 1em;
-    
-}
-
-.email > p {
-    width: 92%; 
-    margin: 0 auto;
-}
 
 .footerMenu {
     margin-bottom: 2.5em;
@@ -222,14 +202,6 @@ footer {
     font-size: 1em;
 }
 
-/* .footerMenu a:visited {
-    text-decoration: none;
-    color: hsl(322, 100%, 66%);
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 1em;
-} */
-
 .footerMenu a {
     text-decoration: none;
     color: hsl(193, 100%, 96%);
@@ -243,21 +215,11 @@ footer > p {
     text-align: center;
 }
 
-.socialmedia {
-    display: flex;
-    flex-flow: row;
-}
-
 .attribution {
     margin: 0 auto;
     text-align: center;
     color: white;
 }
-
-/* .attribution > a:visited {
-    color: hsl(322, 100%, 66%);
-    font-size: 1em;
-} */
 
 .attribution > a {
     text-decoration: none;
@@ -401,28 +363,59 @@ footer > p {
 
     }
 
-    footer {
-        display: flex;
-        flex-flow: row;
-        width: 100%;
+    .footerLogo {
+        background-color: rgba(255, 255, 255, 0.577);
+        width: 13em;
+        padding: 1em;
+        border: 1px solid white;
+        border-radius: 1em;
+        margin-top: 3.5em;
+    }
+
+    .column {
+        float: left;
+        /* width: 100%; */
+        padding-top: 4em;
     }
 
     .grid1 {
         width: 33.33%;
-        margin-bottom: 8em;
     }
 
     .grid2 {
-        display: flex;
-        flex-wrap: wrap;
         width: 33.33%;
-        margin-top: 12em;
-        font-size: 70%;
     }
 
     .grid3 {
         width: 33.33%;
-        margin-top: 12em;
+    }
+
+    .row {
+        width: 100%;
+        padding: 1em;
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+    .footerMenu {
+        margin: 0 auto;
+    }
+
+    .footerMenu li {
+        list-style: none;
+        font-size: 1em;
+        padding-top: 0;
+        margin-bottom: 0;
+    }
+    
+    .footerMenu a {
+        text-decoration: none;
+        font-size: 80%;
     }
 
 }
