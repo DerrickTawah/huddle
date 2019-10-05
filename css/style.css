@@ -156,7 +156,7 @@ footer {
     justify-content: flex-start;
     align-items: flex-start;
     width: 100%;
-    margin: 2em auto;
+    margin: 1em auto;
     font-size: 1em;
 }
 
@@ -181,8 +181,7 @@ footer {
 }
 
 .location > img {
-    width: 8%;
-    padding-right: 1em;   
+    padding-right: .5em;   
 }
 
 .location > p {
