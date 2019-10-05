@@ -95,7 +95,7 @@ main {
 
 .benefits {
     display: block;
-    width: auto;
+    width: 100%;
 }
 
 .grow, .flow, .users, .call-to-action {
@@ -137,6 +137,8 @@ footer {
     margin: 0 auto;
     padding: 1em;
     font-size: 1em;
+    border-start-start-radius: 1em;
+    border-start-end-radius: 1em;
 }
 
 .footerLogo {
@@ -148,25 +150,13 @@ footer {
     border-radius: 1.1em;
 }
 
-.location > img {
-    padding-right: .75em;
-}
-
-.phone > img {
-    padding-right: 1em;
-}
-
-.email > img {
-    padding-right: 1em;
-}
-
 .location {
     display: flex;
     flex-flow: row;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
     width: 100%;
-    margin: 1em auto;
+    margin: 2em auto;
     font-size: 1em;
 }
 
@@ -174,7 +164,7 @@ footer {
     display: flex;
     flex-flow: row;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
     width: 100%;
     margin: 1em auto;
     font-size: 1em;
@@ -184,10 +174,40 @@ footer {
     display: flex;
     flex-flow: row;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
     width: 100%; 
     margin: 1em auto;
     font-size: 1em;
+}
+
+.location > img {
+    width: 8%;
+    padding-right: 1em;   
+}
+
+.location > p {
+    width: 92%;
+    margin: 0 auto;
+}
+
+
+.phone > img {
+    padding-right: 1em;
+}
+
+.phone > p {
+    width: 92%;
+    margin: 0 auto;
+}
+
+.email > img {
+    padding-right: 1em;
+    
+}
+
+.email > p {
+    width: 92%; 
+    margin: 0 auto;
 }
 
 .footerMenu {
@@ -232,6 +252,7 @@ footer > p {
 .attribution {
     margin: 0 auto;
     text-align: center;
+    color: white;
 }
 
 /* .attribution > a:visited {
@@ -240,9 +261,10 @@ footer > p {
 } */
 
 .attribution > a {
-    color: white;
-    font-size: 1em;
     text-decoration: none;
+    color: #f5f5f5;
+    font-size: 50%;
+    font-family: 'Poppins';
 }
 
 @media screen and (min-width: 820px) {
