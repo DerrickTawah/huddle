@@ -368,11 +368,13 @@ footer > p {
     .menu-items1 {
         flex-flow: column;
         width: 50%;
+        margin: 0 auto;
     }
 
     .menu-items2 {
         flex-flow: column;
         width: 50%;
+        margin: 0 auto;
     }
 
     .row {
@@ -401,5 +403,41 @@ footer > p {
     .footerLogo > img {
         width: 100%;
     }
+
+    .socialmedia {
+        padding-top: 1em;
+        padding-bottom: 2em;
+        margin: 0 auto;
+    }
+
+    .fa {
+        padding: 1em;
+        font-size: 1em;
+        width: 1.5em;
+        height: 1.5em;
+        margin-right: .2em;
+        text-align: center;
+        text-decoration: none;
+        border: 1px solid white;
+        border-radius: 50%;
+        display: inline-block;
+      }
+      
+      .fa:hover {
+          opacity: 0.7;
+      }
+      
+      .fa-facebook {
+        color: white;
+      }
+      
+      .fa-twitter {
+        color: white;
+      }
+      
+      .fa-instagram {
+        color: white;
+      }
+      
 
 }
