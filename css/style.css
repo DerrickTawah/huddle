@@ -141,6 +141,10 @@ footer {
     border-start-end-radius: 1em;
 }
 
+.desktop {
+    display: none;
+}
+
 .footerLogo {
     background-color: rgba(255, 255, 255, 0.577);
     width: 13em;
@@ -206,7 +210,9 @@ footer {
     text-decoration: none;
     color: hsl(193, 100%, 96%);
     font-family: 'Poppins';
-    font-size: 1em;
+    font-size: 80%;
+    font-weight: light;
+    line-height: 1.2em;
 }
 
 footer > p {
@@ -319,24 +325,6 @@ footer > p {
         font-size: 100%;
         justify-items: center;
     }
-/* 
-    .flowContent {
-        box-sizing: border-box;
-        padding: 1em;
-        margin: 4em;
-        text-align: left;
-        font-size: 100%;
-        justify-items: center;
-    }
-
-    .usersContent {
-        box-sizing: border-box;
-        padding: 1em;
-        margin: 4em;
-        text-align: left;
-        font-size: 100%;
-        justify-items: center;
-    } */
 
 
     .grow > img {
@@ -364,33 +352,43 @@ footer > p {
 
     }
 
+    .mobile {
+        display: none;
+    }
+
+    .desktop {
+        display: flex;
+        flex-flow: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin: 0 auto;
+    }
+
+    .row {
+        display: flex;
+        width: 100%;
+        padding: .5em;
+    }
+
+    .column {
+        display: flex;
+        flex-flow: column;
+        width: 33.33%;
+    }
+
     .footerLogo {
+        float: left;
+        clear: both;
         background-color: rgba(255, 255, 255, 0.577);
         width: 10em;
         padding: .5em;
         border-radius: 1em;
         margin-top: 3.5em;
+        margin-bottom: 1em;
     }
     
     .footerLogo > img {
         width: 100%;
     }
-    .parent {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(5, 1fr);
-        grid-column-gap: 50px;
-        grid-row-gap: 16px;
-        }
-        
-        .div1 { grid-area: 1 / 1 / 2 / 2; }
-        .div2 { grid-area: 2 / 1 / 3 / 2; }
-        .div3 { grid-area: 3 / 1 / 4 / 2; }
-        .div4 { grid-area: 4 / 1 / 5 / 2; }
-        .div5 { grid-area: 2 / 2 / 3 / 3; }
-        .div6 { grid-area: 2 / 3 / 3 / 4; }
-        .div7 { grid-area: 2 / 4 / 3 / 5; }
-        .div8 { grid-area: 5 / 4 / 6 / 5; } 
- 
 
 }
