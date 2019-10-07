@@ -137,8 +137,6 @@ footer {
     margin: 0 auto;
     padding-top: 4em;
     font-size: 1em;
-    border-start-start-radius: 1em;
-    border-start-end-radius: 1em;
 }
 
 .desktop {
@@ -180,16 +178,34 @@ footer {
     font-size: 1em;
 }
 
-.location.phone.email > img {
-    padding-right: .5em; 
-    margin-top: 4px;
-    width: 18px;
-    height: 24px;  
+.location > p {
+    flex-shrink: 1;
 }
 
-.location.phone.email > p {
-    width: 92%;
-    margin: 0 auto;
+.location > img {
+    flex-shrink: 0;
+    padding: 1em;
+    margin-top: .2em;
+}
+
+.phone > p {
+    flex-shrink: 1;
+}
+
+.phone > img {
+    flex-shrink: 0;
+    padding: 1em;
+    margin-top: .2em;
+}
+
+.email > p {
+    flex-shrink: 1;
+}
+
+.email > img {
+    flex-shrink: 0;
+    padding: 1em;
+    margin-top: .2em;
 }
 
 
@@ -352,6 +368,17 @@ footer > p {
 
     }
 
+    footer {
+        background: hsl(192, 100%, 9%);
+        color: white;
+        font-family: 'Poppins';
+        margin: 0 auto;
+        padding-top: 4em;
+        font-size: 1em;
+        border-start-start-radius: 1em;
+        border-start-end-radius: 1em;
+    }
+
     .mobile {
         display: none;
     }
@@ -365,36 +392,6 @@ footer > p {
         margin: 0 auto;
         padding-left: 2em;
         padding-right: 2em;
-    }
-
-    .location > p {
-        flex-shrink: 1;
-    }
-
-    .location > img {
-        flex-shrink: 0;
-        padding: 1em;
-        margin-top: .2em;
-    }
-
-    .phone > p {
-        flex-shrink: 1;
-    }
-
-    .phone > img {
-        flex-shrink: 0;
-        padding: 1em;
-        margin-top: .2em;
-    }
-
-    .email > p {
-        flex-shrink: 1;
-    }
-
-    .email > img {
-        flex-shrink: 0;
-        padding: 1em;
-        margin-top: .2em;
     }
 
     .menu-items1 {
