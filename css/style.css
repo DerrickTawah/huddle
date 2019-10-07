@@ -360,9 +360,41 @@ footer > p {
         display: flex;
         flex-flow: row;
         width: 100%;
-        justify-content: flex-start;
+        justify-content: space-evenly;
         align-items: flex-start;
         margin: 0 auto;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    .location > p {
+        flex-shrink: 1;
+    }
+
+    .location > img {
+        flex-shrink: 0;
+        padding: 1em;
+        margin-top: .2em;
+    }
+
+    .phone > p {
+        flex-shrink: 1;
+    }
+
+    .phone > img {
+        flex-shrink: 0;
+        padding: 1em;
+        margin-top: .2em;
+    }
+
+    .email > p {
+        flex-shrink: 1;
+    }
+
+    .email > img {
+        flex-shrink: 0;
+        padding: 1em;
+        margin-top: .2em;
     }
 
     .menu-items1 {
@@ -398,6 +430,7 @@ footer > p {
         border-radius: 1em;
         margin-top: 3.5em;
         margin-bottom: 1em;
+        margin-left: 1.5em;
     }
     
     .footerLogo > img {
@@ -428,16 +461,18 @@ footer > p {
       }
       
       .fa-facebook {
+        background: #3B5998;
         color: white;
       }
       
       .fa-twitter {
+        background: #55ACEE;
         color: white;
       }
       
       .fa-instagram {
+        background: #125688;
         color: white;
-      }
-      
+      }      
 
 }
