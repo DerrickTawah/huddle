@@ -438,9 +438,11 @@ footer > p {
         padding-top: 1em;
         padding-bottom: 2em;
         margin: 0 auto;
+        color: white;
     }
 
     .fa {
+        display: inline-block;
         padding: 1em;
         font-size: 1em;
         width: 1.5em;
@@ -448,9 +450,9 @@ footer > p {
         margin-right: .2em;
         text-align: center;
         text-decoration: none;
-        border: 1px solid white;
+        border: .5px solid white;
         border-radius: 50%;
-        display: inline-block;
+        
       }
       
       .fa:hover {
@@ -468,7 +470,7 @@ footer > p {
       }
       
       .fa-instagram {
-        background: #125688;
+        background: #3f729b;
         color: white;
       }      
 
