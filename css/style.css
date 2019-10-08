@@ -243,11 +243,15 @@ footer > p {
     color: white;
 }
 
-.attribution > a {
+.attribution p {
+    color: white;
+    font-style: italic;
+}
+
+.attribution a {
     text-decoration: none;
     color: #f5f5f5;
-    font-size: 50%;
-    font-family: 'Poppins';
+
 }
 
 @media screen and (min-width: 820px) {
