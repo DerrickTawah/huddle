@@ -293,7 +293,10 @@ footer > p {
   .fa-instagram {
     background: #3f729b;
     color: white;
-  }      
+  } 
+
+/*======*/
+/*Styles for wide screens*/
 
 @media screen and (min-width: 820px) {
 
