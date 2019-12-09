@@ -11,7 +11,12 @@ body {
     margin: 2em auto;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Poppins';
     font-weight: 600;
     font-size: 2em;
@@ -43,7 +48,7 @@ header {
     display: inline-block;
     width: 100%;
     text-align: left;
-    background: url('/images/bg-hero-mobile.svg');
+    background: url('./images/bg-hero-mobile.svg');
     background-repeat: no-repeat;
     background-size: cover;
     /*background-color: hsl(185, 62%, 92%);*/
@@ -56,7 +61,7 @@ header img {
     margin: 0 1.5em;
 }
 
-header > a {
+header>a {
     float: right;
     border: 2px solid #f5f5f5;
     border-radius: 50px;
@@ -78,7 +83,7 @@ header > a {
     text-align: center;
 }
 
-.hero > img {
+.hero>img {
     display: block;
     width: 80%;
     margin: auto;
@@ -98,7 +103,10 @@ main {
     width: 100%;
 }
 
-.grow, .flow, .users, .call-to-action {
+.grow,
+.flow,
+.users,
+.call-to-action {
     display: flex;
     flex-flow: column;
     border: 2px solid #e4e1e1;
@@ -108,17 +116,17 @@ main {
     margin: 2.5em 2em;
 }
 
-.grow > img {
+.grow>img {
     width: auto;
     height: 30vh;
 }
 
-.flow > img {
+.flow>img {
     width: auto;
     height: 30vh;
 }
 
-.users > img {
+.users>img {
     width: auto;
     height: 30vh;
 }
@@ -174,35 +182,35 @@ footer {
     flex-flow: row;
     justify-content: flex-start;
     align-items: flex-start;
-    width: 100%; 
+    width: 100%;
     font-size: 1em;
 }
 
-.location > p {
+.location>p {
     flex-shrink: 1;
 }
 
-.location > img {
+.location>img {
     flex-shrink: 0;
     padding: 1em;
     margin-top: .2em;
 }
 
-.phone > p {
+.phone>p {
     flex-shrink: 1;
 }
 
-.phone > img {
+.phone>img {
     flex-shrink: 0;
     padding: 1em;
     margin-top: .2em;
 }
 
-.email > p {
+.email>p {
     flex-shrink: 1;
 }
 
-.email > img {
+.email>img {
     flex-shrink: 0;
     padding: 1em;
     margin-top: .2em;
@@ -231,7 +239,7 @@ footer {
     line-height: 1.2em;
 }
 
-footer > p {
+footer>p {
     font-size: 1em;
     color: white;
     text-align: center;
@@ -273,27 +281,27 @@ footer > p {
     text-decoration: none;
     border: .5px solid white;
     border-radius: 50%;
-    
-  }
-  
-  .fa:hover {
-      opacity: 0.7;
-  }
-  
-  .fa-facebook {
+
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
     background: #3B5998;
     color: white;
-  }
-  
-  .fa-twitter {
+}
+
+.fa-twitter {
     background: #55ACEE;
     color: white;
-  }
-  
-  .fa-instagram {
+}
+
+.fa-instagram {
     background: #3f729b;
     color: white;
-  } 
+}
 
 /*======*/
 /*Styles for wide screens*/
@@ -309,11 +317,11 @@ footer > p {
     }
 
     header {
-        background: url('/images/bg-hero-desktop.svg');
+        background: url('./images/bg-hero-desktop.svg');
         background-repeat: no-repeat;
         background-size: cover;
     }
-    
+
     header img {
         float: left;
         width: 240px;
@@ -321,7 +329,7 @@ footer > p {
         margin: 0 1.5em;
     }
 
-    header > a {
+    header>a {
         float: right;
         border: 2px solid #f5f5f5;
         border-radius: 50px;
@@ -351,7 +359,7 @@ footer > p {
         padding-top: 4em;
     }
 
-    .hero > img {
+    .hero>img {
         width: 60%;
     }
 
@@ -368,7 +376,7 @@ footer > p {
         display: flex;
         flex-flow: row-reverse;
         box-sizing: border-box;
-       
+
     }
 
     .flow {
@@ -381,7 +389,9 @@ footer > p {
         flex-flow: row-reverse;
     }
 
-    .growContent, .flowContent, .usersContent{
+    .growContent,
+    .flowContent,
+    .usersContent {
         box-sizing: border-box;
         padding: 2em 3em 4.5em 2em;
         margin: 4em;
@@ -391,18 +401,18 @@ footer > p {
     }
 
 
-    .grow > img {
+    .grow>img {
         width: 50%;
         height: auto;
         box-sizing: border-box;
     }
 
-    .flow > img {
+    .flow>img {
         width: 50%;
         height: auto;
     }
 
-    .users > img {
+    .users>img {
         width: 50%;
         height: auto;
     }
@@ -477,8 +487,8 @@ footer > p {
         margin-bottom: 1em;
         margin-left: 1.5em;
     }
-    
-    .footerLogo > img {
+
+    .footerLogo>img {
         width: 100%;
     }
 
@@ -500,26 +510,26 @@ footer > p {
         text-decoration: none;
         border: .5px solid white;
         border-radius: 50%;
-        
-      }
-      
-      .fa:hover {
-          opacity: 0.7;
-      }
-      
-      .fa-facebook {
+
+    }
+
+    .fa:hover {
+        opacity: 0.7;
+    }
+
+    .fa-facebook {
         background: #3B5998;
         color: white;
-      }
-      
-      .fa-twitter {
+    }
+
+    .fa-twitter {
         background: #55ACEE;
         color: white;
-      }
-      
-      .fa-instagram {
+    }
+
+    .fa-instagram {
         background: #3f729b;
         color: white;
-      }      
+    }
 
 }
